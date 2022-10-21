@@ -76,7 +76,6 @@ namespace Iat_hook
                         const intptr_t nmod_func_name = (intptr_t)mod_func_name;
                         if (nmod_func_name >= 0 && !lstrcmpA(function, mod_func_name))
                             return func_idx + (void**)(iid->FirstThunk + (size_t)hModule);
-                        }
                     }
                 }
             }
